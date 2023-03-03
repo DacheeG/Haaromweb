@@ -62,6 +62,20 @@ header a{
   font-size:16px;
 }
 
+table{
+  background-color: #35424a;
+  color: black;
+  border: 1px;
+  border-radius: 2px;
+  border-collapse: collapse;
+}
+Login, Signup{
+  background-color: greenyellow;
+  color: black;
+  border: 1px;
+  border-radius: 2px;
+
+}
 header li{
   float:left;
   display:inline;
