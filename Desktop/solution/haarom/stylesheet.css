@@ -8,6 +8,11 @@
     font-weight: bold;
     }
     
+    img{
+        width: 40px;
+        height: 40px;
+
+    }
     .container {
     height: 900px;
     width: 400px;
@@ -103,4 +108,9 @@
     margin: 5px 30px;
     background-color: rgb(71, 177, 61);
     }
-    
+    .Login {
+        padding-left: 40%;
+        margin:0;
+        
+
+    }

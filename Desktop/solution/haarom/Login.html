@@ -5,11 +5,12 @@
     <meta name="description" content="Affordable and professional web design">
    <meta name="keywords" content="web design, affordable web design, professional web design">
    <meta name="author" content="Brad Traversy">
-    <title> LOIN</title>
+    <title> LOGIN</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="icon" href="img/favicon.png">
   </head>
   <body>
+
     <header>
       <div class="container">
         <div id="branding">
@@ -22,20 +23,26 @@
             <li class="current"><a href="Login.html">LOGIN</a></li>
             <li><a href="Signup.html">SIGNUP</a></li>
             <li><a href="Contact us.html">Contact Us</a></li>
-            
           </ul>
         </nav>
       </div>
     </header>
         <body>
           <h4 style="text-align: center; background-color: blue;color: whitesmoke;">LOGIN HERE </h4>  
-    <div class="Login" style="padding-left: 40%;">
-      <form action="https://haarombusiness@gmail.com" method="post">
+    <div style="padding-left: 40%;" class="login">
+      <form action="login.php" method="post">
         <label for="email"><b>Email</b></label><br>
-          <input type="text" placeholder="Enter Email" name="email" > <br>
-          <label for="psw"><b>Password</b></label><br>
-          <input type="password" placeholder="Enter Password" name="psw"><br>
-        <input type="button" value="Login"> <br>
+          <input type="text" placeholder="Enter Email" name="email" required > <br>
+          <label for="psw" aria-placeholder="Enter Password"><b>Password</b></label><br>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+         
+          <button type="button" 
+          onmouseover="document.getElementById('myparagraph').innerHTML='<h2> Click to Login</h2>'"
+          onmouseleave="document.getElementById('myparagraph').innerHTML='<h2> </h2>'"
+          class="btn btn-login">LOGIN</button>
+          <p id="myparagraph"></p>
+          Not yet have no Account
+          <li><a href="Signup.html"> SIGNUP </a></li>
       </form>
     </div>  
 </body>
