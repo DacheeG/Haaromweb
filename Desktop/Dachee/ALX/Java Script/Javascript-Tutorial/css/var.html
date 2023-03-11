@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+<body>
+    <h1> Dachee Oro App</h1>
+    <script>
+        var Date, Time,  minute, Greeting ;
+        var name ='Dachee'
+        var name, myName, myFName;
+        var x,y,z, area, width;
+         x=5;
+         y=25;
+        z= x+y;
+        height =10;
+        width=3;
+        area=height * width;
+        document.write(z);
+        document.write('<h3>' + area  + '</h3> ');
+        myName='Diriba';
+        myFName= 'Gonfa';
+        Date= new Date();
+        Time = Date.getHours();
+        minute=Date.getMinutes();
+        document.write('<h3>' +Date  + '</h3> ');
+        
+        if (Time > 12){
+            Greeting = 'Akkam Ooltan';
+            document.write('<h3>' + name + Greeting + '</h3> ');
+        }
+            else if (Time =>6 ){
+                Greeting= 'Akkam Nagaa Ooltanii?';
+                document.write('<h3>' + name + Greeting + '</h3> ');
+            }
+            else {
+                document.write('<h3>' +name+ 'Akkam Nagaa jirtuu?' + '</h3> ');
+            }
+    </script>
+</body>
+</html>

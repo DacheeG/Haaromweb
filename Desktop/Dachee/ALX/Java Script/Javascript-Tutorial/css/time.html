@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+<body>
+    <h1> Dachee Oro App</h1>
+    <script>
+        var Date, Time,  minute, Greeting ;
+        Date= new Date();
+        Time = Date.getHours();
+        minute=Date.getMinutes();
+        document.write('<h3>' +Date  + '</h3> ');
+       
+        if (Time > 12){
+            Greeting = 'Akkam Ooltan';
+            document.write('<h3>' +Greeting + '</h3> ');
+        }
+            else if (Time =>6 ){
+                Greeting= 'Akkam Nagaa Ooltanii?';
+                document.write('<h3>' +Greeting + '</h3> ');
+            }
+            else {
+                document.write('<h3>' +'Akkam Nagaa jirtuu?' + '</h3> ');
+            }
+    </script>
+</body>
+</html>
